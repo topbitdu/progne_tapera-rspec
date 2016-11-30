@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["topbit.du@gmail.com"]
 
   spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.description   = %q{Progne Tapera RSpec is a RSpec-based Shared Example for the Progne Tapera-based enum implementation. Progne Tapera RSpec 是为 Progne Tapera 设计的基于 RSpec 的共享测试用例。}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 
