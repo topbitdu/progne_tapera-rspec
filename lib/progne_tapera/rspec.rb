@@ -1,7 +1,7 @@
 require "progne_tapera/rspec/version"
 
 module ProgneTapera
-  module Rspec
+  module RSpec
     # Your code goes here...
   end
 end
