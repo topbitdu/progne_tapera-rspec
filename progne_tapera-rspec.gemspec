@@ -6,7 +6,7 @@ require 'progne_tapera/rspec/version'
 Gem::Specification.new do |spec|
   spec.name          = 'progne_tapera-rspec'
   spec.version       = ProgneTapera::Rspec::VERSION
-  spec.authors       = ["Topbit Du"]
+  spec.authors       = [ 'Topbit Du' ]
   spec.email         = ["topbit.du@gmail.com"]
 
   spec.summary       = %q{Progne Tapera RSpec 是为 Progne Tapera 设计的基于 RSpec 的共享测试用例。}
