@@ -22,7 +22,33 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add the following line into the ``spec/rails_helper.rb`` file:
+
+```ruby
+require 'progne_tapera/rspec/enum_code_shared_examples'
+```
+
+Create the RSpec examples for your enum code (assume the enum code is Gender):
+```ruby
+require 'rails_helper'
+
+RSpec.describe Gender, type: :type do
+
+  before :each do
+  end
+
+  after :each do
+  end
+
+  it_behaves_like 'enum code', 3, [
+    { code: '1', name: 'male',          localized_name: '男'     },
+    { code: '2', name: 'female',        localized_name: '女'     },
+    { code: '9', name: 'not_specified', localized_name: '未指定' } ]
+
+end
+```
+
+
 
 ## Development
 
