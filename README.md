@@ -26,6 +26,7 @@ Add the following line into the ``spec/rails_helper.rb`` file:
 
 ```ruby
 require 'progne_tapera/rspec/enum_code_shared_examples'
+require 'progne_tapera/rspec/code_attribute_shared_examples'
 ```
 
 Create the RSpec examples for your enum code (assume the enum code is Gender):
@@ -44,6 +45,29 @@ RSpec.describe Gender, type: :type do
     { code: '1', name: 'male',          localized_name: '男'     },
     { code: '2', name: 'female',        localized_name: '女'     },
     { code: '9', name: 'not_specified', localized_name: '未指定' } ]
+
+end
+```
+
+Create the RSpec examples for your model which has the #gender_code attribute (assume the model is Person):
+```ruby
+# person.rb
+class Person < ApplicationRecord
+  include Unidom::Common::ModelExtension
+  include ProgneTapera::EnumCode
+
+  code :gender # 这里将 #gender_code 字段和 Gender 枚举型集成起来。
+end
+
+# person_spec.rb
+require 'rails_helper'
+
+describe Person do
+
+  context '#gender' do
+    @person = Person.new
+    it_behaves_like 'code attribute', @person, :gender, Gender
+  end
 
 end
 ```
