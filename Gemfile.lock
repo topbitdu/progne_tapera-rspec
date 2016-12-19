@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    progne_tapera-rspec (0.1)
+    progne_tapera-rspec (0.2)
 
 GEM
   remote: https://rubygems.org/
