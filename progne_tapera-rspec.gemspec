@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = [ 'Topbit Du' ]
   spec.email         = [ 'topbit.du@gmail.com' ]
 
-  spec.summary       = %q{Progne Tapera RSpec 是为 Progne Tapera 设计的基于 RSpec 的共享测试用例。}
+  spec.summary       = 'Progne Tapera RSpec 是为 Progne Tapera 设计的基于 RSpec 的共享测试用例。'
   spec.description   = %q{Progne Tapera RSpec is a RSpec-based Shared Example for the Progne Tapera-based enum implementation. Progne Tapera RSpec 是为 Progne Tapera 设计的基于 RSpec 的共享测试用例。}
   spec.homepage      = 'https://github.com/topbitdu/progne_tapera-rspec'
   spec.license       = 'MIT'
