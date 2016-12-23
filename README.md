@@ -1,8 +1,6 @@
 # Progne Tapera RSpec 枚举 RSpec 库
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/progne_tapera/rspec`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Progne Tapera RSpec is a RSpec-based Shared Example for the Progne Tapera-based enum implementation. Progne Tapera RSpec 是为 Progne Tapera 设计的基于 RSpec 的共享测试用例。
 
 ## Installation
 
