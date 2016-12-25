@@ -5,3 +5,6 @@
 
 ## v0.2
 1. Code Attribute shared examples
+
+## v0.3
+1. Improve the Progne Tapera RSpec module to require the Enum Code shared examples & the Code Attribute shared examples automatically
