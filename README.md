@@ -23,14 +23,8 @@ Or install it yourself as:
 
 ## Usage
 
-Add the following line into the ``spec/rails_helper.rb`` file:
-
-```ruby
-require 'progne_tapera/rspec/enum_code_shared_examples'
-require 'progne_tapera/rspec/code_attribute_shared_examples'
-```
-
 Create the RSpec examples for your enum code (assume the enum code is Gender):
+
 ```ruby
 require 'rails_helper'
 
@@ -51,6 +45,7 @@ end
 ```
 
 Create the RSpec examples for your model which has the #gender_code attribute (assume the model is Person):
+
 ```ruby
 # person.rb
 class Person < ApplicationRecord
