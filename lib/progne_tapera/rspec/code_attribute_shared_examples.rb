@@ -1,4 +1,8 @@
+# The following shared examples are deprecated.
+
 shared_examples 'code attribute' do |model, attribute_name, enum|
+
+  warn 'The "code attribute" shared examples is deprecated and will be removed since v1.0, please use "ProgneTapera::EnumCode" instead.'
 
   describe "##{attribute_name}" do
     it 'exists' do expect(model).to respond_to(attribute_name) end
