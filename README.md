@@ -36,7 +36,7 @@ RSpec.describe Gender, type: :type do
   after :each do
   end
 
-  it_behaves_like 'enum code', 3, [
+  it_behaves_like 'ProgneTapera::EnumConfig', 3, [
     { code: '1', name: 'male',          localized_name: '男'     },
     { code: '2', name: 'female',        localized_name: '女'     },
     { code: '9', name: 'not_specified', localized_name: '未指定' } ]
@@ -62,7 +62,7 @@ describe Person do
 
   context '#gender' do
     @person = Person.new
-    it_behaves_like 'code attribute', @person, :gender, Gender
+    it_behaves_like 'ProgneTapera::EnumCode', @person, :gender, Gender
   end
 
 end
