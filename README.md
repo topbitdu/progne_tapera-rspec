@@ -2,6 +2,7 @@
 
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](http://opensource.org/licenses/MIT)
 [![Gem Version](https://badge.fury.io/rb/progne_tapera-rspec.svg)](https://badge.fury.io/rb/progne_tapera-rspec)
+[![Dependency Status](https://gemnasium.com/badges/github.com/topbitdu/progne_tapera-rspec.svg)](https://gemnasium.com/github.com/topbitdu/progne_tapera-rspec)
 
 Progne Tapera RSpec is a RSpec-based Shared Example for the Progne Tapera-based enum implementation. Progne Tapera RSpec 是为 Progne Tapera 设计的基于 RSpec 的共享测试用例。
 
