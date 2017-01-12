@@ -1,6 +1,8 @@
 # Progne Tapera RSpec 枚举 RSpec 库
 
+[![Documentation](http://img.shields.io/badge/docs-rdoc.info-blue.svg)](http://www.rubydoc.info/gems/progne_tapera-rspec/frames)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](http://opensource.org/licenses/MIT)
+
 [![Gem Version](https://badge.fury.io/rb/progne_tapera-rspec.svg)](https://badge.fury.io/rb/progne_tapera-rspec)
 [![Dependency Status](https://gemnasium.com/badges/github.com/topbitdu/progne_tapera-rspec.svg)](https://gemnasium.com/github.com/topbitdu/progne_tapera-rspec)
 
