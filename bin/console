@@ -10,5 +10,5 @@ require 'progne_tapera/rspec'
 # require "pry"
 # Pry.start
 
-require "irb"
+require 'irb'
 IRB.start
