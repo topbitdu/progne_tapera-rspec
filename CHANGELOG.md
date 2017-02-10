@@ -17,4 +17,4 @@
 5. Improve the Progne Tapera RSpec module to require the Progne Tapera Enum Config shared examples & the Progne Tapera Enum Code shared examples automatically
 
 ## v0.3.2
-1. Improve the Ruby Gem Specification to depend on rspec v3.0 at runtime
+1. Improve the Ruby Gem Specification to depend on [RSpec](https://github.com/rspec/rspec) v3.0 at runtime
