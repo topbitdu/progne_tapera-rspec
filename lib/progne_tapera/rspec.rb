@@ -6,6 +6,5 @@ require 'progne_tapera/rspec/code_attribute_shared_examples'
 
 module ProgneTapera
   module RSpec
-    # Your code goes here...
   end
 end
