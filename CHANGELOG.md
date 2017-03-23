@@ -18,3 +18,7 @@
 
 ## v0.3.2
 1. Improve the Ruby Gem Specification to depend on [RSpec](https://github.com/rspec/rspec) v3.0 at runtime
+
+## v1.0
+1. Remove the Enum Code shared examples
+2. Remove the Code Attribute shared examples
