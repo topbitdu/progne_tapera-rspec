@@ -52,18 +52,20 @@ Create the RSpec examples for your model which has the #gender_code attribute (a
 ```ruby
 # person.rb
 class Person < ApplicationRecord
+
   include Unidom::Common::ModelExtension
   include ProgneTapera::EnumCode
 
   code :gender # 这里将 #gender_code 字段和 Gender 枚举型集成起来。
+
 end
 
 # person_spec.rb
 require 'rails_helper'
 
-describe Person do
+describe Person, type: :model do
 
-  context '#gender' do
+  context do
     @person = Person.new
     it_behaves_like 'ProgneTapera::EnumCode', @person, :gender, Gender
   end
