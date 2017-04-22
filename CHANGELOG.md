@@ -13,7 +13,7 @@
 1. Progne Tapera Enum Config shared examples
 2. Progne Tapera Enum Code shared examples
 3. Deprecated the Enum Code shared examples
-4. Deprecate the Code Attribute shared examples
+4. Deprecated the Code Attribute shared examples
 5. Improve the Progne Tapera RSpec module to require the Progne Tapera Enum Config shared examples & the Progne Tapera Enum Code shared examples automatically
 
 ## v0.3.2
